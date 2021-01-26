@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white1">
+
+        <ImageView
+            android:id="@+id/movi_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/imagen_de_pelicula"
+            android:src="@drawable/ic_theaters" />
+
+
+        <ImageView
+            android:id="@+id/eq_arrow_image"
+            android:contentDescription="@string/flacha_para_contenido"
+            android:layout_width="40dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_chevron_right_black" />
+
+
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@+id/eq_arrow_image"
+            android:layout_toEndOf="@+id/movi_image"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            tools:text="pelicula" />
+
+        <TextView
+            android:id="@+id/publico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@+id/eq_arrow_image"
+            android:layout_toEndOf="@+id/movi_image"
+            android:layout_below="@+id/name_text"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:text="Acto para el publico" />
+
+    </RelativeLayout>
+
+</layout>

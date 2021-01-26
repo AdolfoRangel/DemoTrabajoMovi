@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DemoTrabajo</string>
+    <string name="no_se_han_cargado_las_peliculas">NO se han cargado las películas, por favor revisa tu conexion a internet, y seleciona de nuevo la categoría por favor</string>
+    <string name="imagende_pelicula">Imagende pelicula</string>
+    <string name="recientes">Recientes</string>
+    <string name="populares">Populares</string>
+    <string name="proximas">Proóximas</string>
+    <string name="imagen_de_pelicula">Imagen de pelicula</string>
+    <string name="flacha_para_contenido">Flacha para contenido</string>
+    <string name="file_provider_authorityNO">expansion.neto.com.mx.jefeapp.fileprovider</string>
+    <string name="file_provider_authority">com.kotlin.demotrabajo.fileprovider</string>
+    <string name="descripcion">Descripción</string>
+    <string name="fecha_de_estreno">Fecha de estreno</string>
+
+</resources>
